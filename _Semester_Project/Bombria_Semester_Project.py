@@ -137,7 +137,7 @@ class Pipe(pygame.sprite.Sprite):
         if self.rect.x <= -win_width:
             self.kill()
             
-        # Global score
+        # Sets collisions for score
         global score
         if self.pipe_type == 'bottom':
             # Bird is entering pipe
